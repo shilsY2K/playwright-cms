@@ -14,7 +14,7 @@ test('Create new Article', async ({page}) => {
     
     await createArticlePage.gotoCreateArticlePage();
 
-    const title = 'Test Article Title';
+    const title = 'Test Article Title1';
     const about = 'This is a test article about Playwright';
     const article = 'Playwright is a Node.js library to automate Chromium, Firefox and WebKit with a single API.';
     const tags = '  Playwright, Testing, Automation';
